@@ -1,0 +1,89 @@
+@import '@styles/theme.module.scss';
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    height: 50%;
+    background-color: #dcd4d4;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    width: 400px;
+    border-radius: 8px;
+    padding: 1em;
+}
+.formheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+.h2 {
+    font-weight: 600;
+    font-size: 15px;
+}
+.heading {
+}
+.divider {
+    border: 1px solid #bfbaba;
+}
+.close {
+    font-size: 15px;
+    line-height: 1.5px;
+    font-weight: 600;
+}
+.label {
+    font-size: 15px;
+}
+.input {
+    border: 1px solid black;
+    width: 100%;
+}
+.des {
+    font-size: 15px;
+}
+.inpdes {
+    width: 100%;
+    border: 1px solid black;
+    height: 100px;
+}
+.button {
+    display: flex;
+    justify-content: end;
+    padding: 0.2em;
+}
+.cancel {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.save {
+    font-size: 15px;
+    background-color: #056e20;
+    background-image: linear-gradient(#116a28, #116a28);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+    border-radius: 8px;
+    color: #ffffff;
+}
